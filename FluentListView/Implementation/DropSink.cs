@@ -38,6 +38,7 @@
  * If you wish to use this code in a closed source application, please contact phillip_piper@bigfoot.com.
  */
 
+using Fluent;
 using System;
 using System.Collections;
 using System.Drawing;
@@ -286,7 +287,7 @@ namespace BrightIdeasSoftware
         /// Make a new drop sink
         /// </summary>
         public SimpleDropSink() {
-            this.timer = new Timer();
+            this.timer = new System.Windows.Forms.Timer();
             this.timer.Interval = 250;
             this.timer.Tick += new EventHandler(this.timer_Tick);
 
@@ -1079,7 +1080,7 @@ namespace BrightIdeasSoftware
 
         #endregion
 
-        private Timer timer;
+        private System.Windows.Forms.Timer timer;
         private int scrollAmount;
         private bool originalFullRowSelect;
         private ModelDropEventArgs dropEventArgs;

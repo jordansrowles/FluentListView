@@ -39,6 +39,7 @@ using System.Windows.Forms;
 using System.Collections;
 using System.Drawing;
 using Fluent.Lists;
+using FluentListView.Properties;
 
 namespace Fluent {
 	/// <summary>
@@ -82,12 +83,12 @@ namespace Fluent {
 		/// <summary>
 		/// Gets or sets the image that will be placed next to the Clear Filtering menu item
 		/// </summary>
-		public static Bitmap ClearFilteringImage = Properties.Resources.ClearFiltering;
+		public static Bitmap ClearFilteringImage = Resources.ClearFiltering;
 
 		/// <summary>
 		/// Gets or sets the image that will be placed next to all "Apply" menu items on the filtering menu
 		/// </summary>
-		public static Bitmap FilteringImage = Properties.Resources.Filtering;
+		public static Bitmap FilteringImage = Resources.Filtering;
 
 		#endregion
 

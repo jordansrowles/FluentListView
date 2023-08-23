@@ -51,23 +51,20 @@
  * If you wish to use this code in a closed source application, please contact phillip.piper@gmail.com.
  */
 
-using System;
-using System.Drawing;
-using System.Runtime.Remoting.Messaging;
-using System.Windows.Forms;
-using System.Runtime.InteropServices;
-using System.Windows.Forms.VisualStyles;
-using System.Drawing.Drawing2D;
-using Fluent.Properties;
-using System.Security.Permissions;
 using Fluent.Lists;
+using FluentListView.Properties;
+using System.Drawing.Drawing2D;
+using System.Runtime.InteropServices;
+using System.Security.Permissions;
+using System.Windows.Forms.VisualStyles;
 
-namespace Fluent {
-	/// <summary>
-	/// Class used to capture window messages for the header of the list view
-	/// control.
-	/// </summary>
-	public class HeaderControl : NativeWindow {
+namespace Fluent
+{
+    /// <summary>
+    /// Class used to capture window messages for the header of the list view
+    /// control.
+    /// </summary>
+    public class HeaderControl : NativeWindow {
 		/// <summary>
 		/// Create a header control for the given FluentListView.
 		/// </summary>

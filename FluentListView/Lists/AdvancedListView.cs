@@ -37,6 +37,7 @@ using System.Windows.Forms;
 using System.Windows.Forms.VisualStyles;
 using System.Runtime.Serialization.Formatters;
 using System.Threading;
+using FluentListView.Properties;
 
 namespace Fluent.Lists {
 	/// <summary>
@@ -6990,12 +6991,12 @@ namespace Fluent.Lists {
 		/// <summary>
 		/// Gets or sets the image that will be place next to the Sort Ascending command
 		/// </summary>
-		public static Bitmap SortAscendingImage = Properties.Resources.SortAscending;
+		public static Bitmap SortAscendingImage = Resources.SortAscending;
 
 		/// <summary>
 		/// Gets or sets the image that will be placed next to the Sort Descending command
 		/// </summary>
-		public static Bitmap SortDescendingImage = Properties.Resources.SortDescending;
+		public static Bitmap SortDescendingImage = Resources.SortDescending;
 
 		/// <summary>
 		/// Append the column selection menu items to the given menu strip.

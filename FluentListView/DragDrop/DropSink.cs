@@ -46,6 +46,7 @@
 
 using System;
 using System.Collections;
+using System.Data;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
@@ -288,7 +289,7 @@ namespace Fluent {
 		/// Make a new drop sink
 		/// </summary>
 		public SimpleDropSink() {
-			timer = new Timer();
+			timer = new System.Windows.Forms.Timer();
 			timer.Interval = 250;
 			timer.Tick += new EventHandler(timer_Tick);
 
@@ -1149,7 +1150,7 @@ namespace Fluent {
 
 		#endregion
 
-		private Timer timer;
+		private System.Windows.Forms.Timer timer;
 		private int scrollAmount;
 		private bool originalFullRowSelect;
 		private ModelDropEventArgs dropEventArgs;

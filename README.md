@@ -1,3 +1,7 @@
+# Updated from legacy Framework 4.5 to modern .NET 7 (Windows SDKs)
+For this `SYSLIB0011` was added to `NoWarn` in the project files main property group. <br/>It disables the "BinaryFormatter is obsolete" warnings for entire project.
+
+&nbsp;
 # FluentListView
 
 [![Version](https://img.shields.io/nuget/vpre/FluentListView.svg)](https://www.nuget.org/packages/FluentListView)
